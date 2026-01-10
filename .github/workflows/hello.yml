@@ -14,4 +14,4 @@ jobs:
       - name: current folder files
         run: ls -ltr
       - name: checking packages status
-        run: which docker git terraform python tree    
+        run: which docker git     
