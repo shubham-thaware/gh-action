@@ -9,5 +9,9 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: first stage or step
-        run: whoami && df -h && echo "this commands done"
+      - name: checking current dir
+        run: pwd
+      - name: current folder files
+        run: ls -ltr
+      - name: checking packages status
+        run: which docker git terraform python tree    
