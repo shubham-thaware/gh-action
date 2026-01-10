@@ -9,5 +9,5 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: job1 steps
-        run: echo "this is 1st step from job 1"
+      - name: first stage or step
+        run: whoami && df -h && echo "this commands done"
